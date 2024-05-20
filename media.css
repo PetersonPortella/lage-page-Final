@@ -1,0 +1,168 @@
+@media all and (min-width:319px) and (max-width:768px){
+     body,html{
+        background: url(imagens/fundo4.jpg);
+     }
+
+     header{                   /*inicio cabecalho*/
+        width: 100%;
+        flex-direction: column;
+        
+    } 
+
+    .nome img{
+        padding-left: 90px;
+        width: 300%;
+        margin: 0 auto;
+        
+    }
+
+    .menu{
+        width: 100%;
+        padding-top: 1px;
+        padding-right: 80px;
+        font-size: 30px;
+        margin: 0 auto;
+        
+    }
+
+    .menu li a{
+        text-decoration: none;
+        
+    }                           /*fim cabecalho*/
+
+    section{                    /*inicio home*/
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-right: 220px;
+        
+    }
+    h1, h2{
+        font-size: 30px;
+        width: 200px;
+        margin: 0 auto;
+        
+    }
+
+    a button {
+        margin-right: 180px;
+    }
+
+    .foto{
+        width: 180%;
+        padding-bottom: 50px;
+        padding-right: 90px;
+        padding-top: 20px;
+    }
+
+    .redes{
+        width: 80px;
+        padding-left: 350px;
+        padding-top: 50px;
+
+    }                          /*fim do home*/
+
+    .contato{                  /*inicio do contato*/
+        width: 350px;
+        margin-top: 300px;
+        height: 580px;
+    }
+
+    .caixa1{
+        padding-top: 60px;
+    }
+
+
+    .caixa1 button{
+        margin-left: 30px;
+    }                          /*final do contato*/
+
+    .quadro1{                  /*inicio do portifolio*/
+        flex-direction: column;
+        margin-top: 350px;
+        margin-left: 125px;
+    }        
+
+    .foto1{
+        width: 180px;
+    }                
+    
+    .foto:hover{
+        width: 200px;
+    }
+    /*final do portifolio*/
+
+    .sobre{                      /*inicio do sobre*/
+        width: 550px;
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    .sobre2{
+        margin-top: 40px;
+        width: 400px;
+        padding-right: 55px;
+    }                            /*final do sobre*/
+
+    .quadro{                      /*inicio do hard*/
+        flex-direction: column;
+        width: 950px;
+        margin-top: 320px;
+        margin-left: 115px;
+    }
+
+    .foto11, .foto12, .foto13{
+        margin-left: 25px;
+    }
+
+    .foto14{
+        padding-right: 25px;
+        width: 200px;
+    }
+
+    .foto15{
+        padding-right: 70px;
+        width: 230px;
+    }                            /*fim do hard*/
+
+}
+
+@media all and (min-width:1200px) and (max-width:1450px){
+    body,html{
+        background: url(imagens/fundo4.jpg) fixed no-repeat;
+        background-size: 100%;
+     }
+
+     section{
+        width: 100%;                     /*home*/
+        padding-right: 80px;
+
+     }
+
+     .contato{
+        height: 550px;                   /*contato*/
+        width: 550px;
+     }
+
+     .quadro1{                            /*portifolio*/
+        margin-top: 90px;
+     }
+
+     .sobre2{                             /*sobre*/
+        width: 80%;
+     }
+
+     .quadro{                              /*skills*/
+        margin-top: 70px;
+     }
+
+     .foto10{                              /*skills*/
+        padding-top: 20px;
+     }
+
+     .foto13{
+        padding-top: 31px;                   /*skills*/
+     }
+
+}
