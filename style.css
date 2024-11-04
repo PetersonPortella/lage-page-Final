@@ -2,43 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
-
 body, html{
     background: url(imagens/fundo4.jpg) center fixed;
     background-size: 100%;
     color: black;
-   
 }
-
 /*inicio do cabecalho*/
 header{
-    
     width: 100%;
     margin: 0 auto;
     height: 170px;
     display: flex;
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
-
 .nome{
     width: 25%;  
-    height: 250px;
-   
+    height: 250px;   
 }
-
 .nome img{
     width: 300px;
     padding-left: 80px;
 }
-
 .menu{
     width: 75%;
     padding-top: 90px;   
 }
-
 .menu ul li{
     float: right;
     text-decoration: none;
@@ -46,7 +35,6 @@ header{
     padding: 0 25px; 
     margin-right: 50px;    
     margin-top: 10px;  
-
 }
 
 .menu li a{
@@ -63,7 +51,6 @@ header{
     color: white;
     text-decoration: none;
 }
-
 /*final do cabecalho*/
 
 /*inicio do corpo home*/
@@ -80,7 +67,6 @@ section{
 
 .foto{
     width: 25%;
-
 }
 
 .foto img{
@@ -106,7 +92,6 @@ button{
     border: 1px solid white;
     border-radius: 10px;
     transition: 0.5s;
-
 }
 
 button:hover{
